@@ -1,16 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.test.analytics</groupId>
-	<artifactId>analytics-test</artifactId>
+	<groupId>com.analytics.nilm</groupId>
+	<artifactId>NILM</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>testNLIM</name>
-		<properties>
-	<spark.version>2.0.0</spark.version>
-	<mahout.core.version>0.9</mahout.core.version>
-	<mahout.math.version>0.12.2</mahout.math.version>
-	<mahout.collections.version>1.0</mahout.collections.version>
-	<jdk.version>1.8</jdk.version>
+	<name>NILM</name>
+	<properties>
+		<spark.version>2.0.0</spark.version>
+		<mahout.core.version>0.9</mahout.core.version>
+		<mahout.math.version>0.12.2</mahout.math.version>
+		<mahout.collections.version>1.0</mahout.collections.version>
+		<jdk.version>1.8</jdk.version>
 	</properties>
 	<build>
 		<plugins>
@@ -85,4 +85,5 @@
 		</dependency>
 	</dependencies>
 
+	<description>Non Intrusive Load Monitoring</description>
 </project>
